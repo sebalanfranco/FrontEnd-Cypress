@@ -1,0 +1,7 @@
+{
+    "env": {
+        "TAGS": "not @wip"
+    },
+    "baseUrl": "https://example.cypress.io",
+    "testFiles": "**/*.feature"
+}

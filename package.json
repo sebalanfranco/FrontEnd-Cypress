@@ -1,0 +1,15 @@
+{
+    "devDependencies": {
+        "cypress": "^5.5.0",
+        "cypress-cucumber-preprocessor": "^4.0.0",
+        "eslint-plugin-cypress": "^2.11.2"
+},
+"scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:tags": "cypress-tags run -e"
+},
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": false
+    }
+}
